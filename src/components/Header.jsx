@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './header.css';
 
-export function Header({ cart = [] }) {
+export function Header({ cart }) {
   let totalQuantity = 0;
 
   if (Array.isArray(cart)) {
