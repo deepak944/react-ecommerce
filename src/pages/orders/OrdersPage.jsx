@@ -77,16 +77,6 @@ export function OrdersPage({ cart }) {
             </div>
                 </Fragment>
               );})}
-            
-    
-
-            <div className="product-actions">
-              <a href="/tracking">
-                <button className="track-package-button button-secondary">
-                  Track package
-                </button>
-              </a>
-            </div>
           </div>
         </div>
            );
