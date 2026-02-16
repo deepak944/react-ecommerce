@@ -21,7 +21,7 @@ export default function HomePage({ cart, loadCart }) {
       <Header cart={cart}/>
       
       <div className="home-page">
-      <ProductGrids products={products} loadCart={loadCart} />
+      <ProductGrids products={products} loadCart={loadCart} cart={cart} />
     </div>
   </>
   );
